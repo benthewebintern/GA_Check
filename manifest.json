@@ -1,0 +1,13 @@
+{
+  "name": "Check that GA Code",
+  "version": "1.2",
+  "manifest_version": 2,
+  "description": "Easy and fast way to check the GA code",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabs", "<all_urls>"]
+}
