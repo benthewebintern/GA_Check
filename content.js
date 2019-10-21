@@ -27,19 +27,19 @@ function DOMtoString(document_root) {
 			city += 'Wisconsin Travel Best Bets';
 	        break;
 	    case html.includes("UA-9296528-10"):
-			city += ' Boulder Junction';
+			city += 'Boulder Junction';
 	        break;
 	    case html.includes("UA-3678323-79"):
 			city += 'Fitchburg';
 			break;
 		case html.includes("'UA-9296528-22'"):
-			city += ' Porcupine Mountains';
+			city += 'Porcupine Mountains';
 			break;
 		case html.includes("UA-9296528-15"):
 			city += 'Rusk County';
 			break;
 		case html.includes("UA-19063200-2"):
-			city += ' Marshfield';
+			city += 'Marshfield';
 			break;
 		case html.includes("UA-9296528-19"):
 			city += 'Miss. River Parkway Commission';
@@ -48,7 +48,7 @@ function DOMtoString(document_root) {
 			city += 'Tomahawk';
 			break;
 	     default:
-	     	city += 'Missing tag';
+	     	city += 'nothing for P&B';
 	     }
 	var count = (html.match(/UA-/g) || [] ).length;
 	return "The code is for " + city + '\n'
