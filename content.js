@@ -43,6 +43,9 @@ function DOMtoString(document_root) {
 			city += 'Boulder Junction';
 			break;
 		case html.includes("UA-3678323-79"):
+			city += 'Fitchburg - OLD CODE';
+			break;
+		case html.includes("UA-3678323-30"):
 			city += 'Fitchburg';
 			break;
 		case html.includes("'UA-9296528-22'"):
