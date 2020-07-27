@@ -64,7 +64,7 @@ function DOMtoString(document_root) {
 			city += 'Tomahawk';
 			break;
 		case html.includes("UA-145685490-1"):
-			city += 'IronWood';
+			city += 'Ironwood';
 			break;
 		case html.includes("UA-6136594-1"):
 			city += 'CWTA';
