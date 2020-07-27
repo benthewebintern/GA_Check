@@ -63,6 +63,12 @@ function DOMtoString(document_root) {
 		case html.includes("UA-25665374-1"):
 			city += 'Tomahawk';
 			break;
+		case html.includes("UA-9296528-53"):
+			city += 'IronWood';
+			break;
+		case html.includes("UA-6136594-1"):
+			city += 'CWTA';
+			break;
 		default:
 				city += 'nothing for P&B';
 	}
