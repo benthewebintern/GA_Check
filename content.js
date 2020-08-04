@@ -21,6 +21,9 @@ function DOMtoString(document_root) {
 	var googleCodeLines = getValueByKey(html);
 	
 	switch (true) {
+		case html.includes("UA-9296528-54"):
+			city += 'Northwoods';
+			break;
 		case html.includes("UA-9296528-5"):
 			city += 'Middleton';
 			break;
@@ -68,9 +71,6 @@ function DOMtoString(document_root) {
 			break;
 		case html.includes("UA-6136594-1"):
 			city += 'CWTA';
-			break;
-		case html.includes("UA-9296528-54"):
-			city += 'Northwoods';
 			break;
 		default:
 				city += 'nothing for P&B';
